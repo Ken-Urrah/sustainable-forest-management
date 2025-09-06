@@ -1,3 +1,10 @@
 # sustainable-forest-management
-This is my very first ALX git practice.
-I trust that with constant practice I will over all the issues that will come my way on this tech journey. My love for Data Analysis and Science is straight and unweaving. 
+## Carbon Sequestration Calculation
+
+This project now includes a simple function to calculate carbon sequestration in forests.
+
+Example usage:
+```python
+from carbon import calculate_carbon
+
+print(calculate_carbon(100, 25))  # 100 trees, 25 kg CO2 per tree
